@@ -1,4 +1,4 @@
 @import "tailwindcss" prefix(buybox);
-@import "@mfe/config/tailwind/theme";
+@import "@trevelint/mfe-config/tailwind/theme";
 
 @source "./**/*.{tsx,ts}";

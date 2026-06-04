@@ -22,7 +22,10 @@ function BuyBoxViewSkeleton() {
 			<div className="buybox:grid buybox:grid-cols-3 buybox:gap-sm">
 				{[1, 2, 3].map(function renderTrustBadgePlaceholder(key) {
 					return (
-						<div className="buybox:flex buybox:flex-col buybox:items-center buybox:gap-xs" key={key}>
+						<div
+							className="buybox:flex buybox:flex-col buybox:items-center buybox:gap-xs"
+							key={key}
+						>
 							<div className="buybox:h-6 buybox:w-6 buybox:rounded buybox:bg-outline-variant" />
 							<div className="buybox:h-3 buybox:w-16 buybox:rounded buybox:bg-outline-variant" />
 						</div>
