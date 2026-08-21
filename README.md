@@ -35,7 +35,6 @@ Exposes `./BuyBox` → `src/components/buy-box-container.tsx` as `buyBox/BuyBox`
 | Job | What runs |
 |-----|-----------|
 | **Build and Quality** | lint → build (`VITE_BASE=/mba-mfe-buy-box/`) → artifact report → upload `buy-box-dist` → type-check → test-coverage |
-| **Lighthouse CI** | `needs: build` → download `buy-box-dist` → standalone preview at `/mba-mfe-buy-box/` |
 
 ## Release
 
