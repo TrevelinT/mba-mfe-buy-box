@@ -1,5 +1,11 @@
 # mfe-buy-box
 
+## 0.1.1
+
+### Patch Changes
+
+- [#2](https://github.com/TrevelinT/mba-mfe-buy-box/pull/2) [`8896aee`](https://github.com/TrevelinT/mba-mfe-buy-box/commit/8896aeed62de40e7eaa028a285b2095a2a79ea03) Thanks [@TrevelinT](https://github.com/TrevelinT)! - Fix quantity label association and raise feature label font size to meet accessibility audits.
+
 ## 0.1.0
 
 ### Minor Changes
