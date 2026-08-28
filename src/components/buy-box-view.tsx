@@ -113,17 +113,11 @@ function BuyBoxView({
 						{installmentText}
 					</p>
 				</div>
-				<div className="buybox:flex buybox:flex-col buybox:gap-sm">
-					<label
-						className="buybox:font-label-md buybox:text-on-surface buybox:uppercase buybox:tracking-wider"
-						htmlFor="quantity"
-					>
+				<fieldset className="buybox:flex buybox:flex-col buybox:gap-sm buybox:m-0 buybox:min-w-0 buybox:border-0 buybox:p-0">
+					<legend className="buybox:font-label-md buybox:text-on-surface buybox:uppercase buybox:tracking-wider buybox:p-0">
 						Quantidade
-					</label>
-					<div
-						className="buybox:flex buybox:items-center buybox:w-full buybox:max-w-[140px] buybox:border buybox:border-outline-variant buybox:rounded"
-						id="quantity"
-					>
+					</legend>
+					<div className="buybox:flex buybox:items-center buybox:w-full buybox:max-w-[140px] buybox:border buybox:border-outline-variant buybox:rounded">
 						<button
 							aria-label="Diminuir quantidade"
 							className="buybox:p-2 buybox:hover:bg-surface-container buybox:transition-colors"
@@ -148,7 +142,7 @@ function BuyBoxView({
 							<PlusIcon />
 						</button>
 					</div>
-				</div>
+				</fieldset>
 				<div className="buybox:flex buybox:flex-col buybox:gap-md buybox:pt-base">
 					<button
 						className="buybox:w-full buybox:bg-primary-container buybox:hover:bg-primary buybox:py-lg buybox:rounded buybox:text-on-primary buybox:font-headline-md buybox:transition-all buybox:active:opacity-80"
@@ -166,19 +160,19 @@ function BuyBoxView({
 			<div className="buybox:grid buybox:grid-cols-3 buybox:gap-sm">
 				<div className="buybox:flex buybox:flex-col buybox:items-center buybox:text-center buybox:gap-xs">
 					<LocalShippingIcon />
-					<span className="buybox:text-[9px] buybox:font-bold buybox:uppercase buybox:text-secondary">
+					<span className="buybox:text-label-md buybox:font-bold buybox:uppercase buybox:text-secondary">
 						Entrega rápida
 					</span>
 				</div>
 				<div className="buybox:flex buybox:flex-col buybox:items-center buybox:text-center buybox:gap-xs">
 					<VerifiedUserIcon />
-					<span className="buybox:text-[9px] buybox:font-bold buybox:uppercase buybox:text-secondary">
+					<span className="buybox:text-label-md buybox:font-bold buybox:uppercase buybox:text-secondary">
 						Garantia de 2 anos
 					</span>
 				</div>
 				<div className="buybox:flex buybox:flex-col buybox:items-center buybox:text-center buybox:gap-xs">
 					<SyncIcon />
-					<span className="buybox:text-[9px] buybox:font-bold buybox:uppercase buybox:text-secondary">
+					<span className="buybox:text-label-md buybox:font-bold buybox:uppercase buybox:text-secondary">
 						Devolução fácil
 					</span>
 				</div>
