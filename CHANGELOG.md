@@ -1,5 +1,11 @@
 # mfe-buy-box
 
+## 1.0.0
+
+### Major Changes
+
+- [`867c06c`](https://github.com/TrevelinT/mba-mfe-buy-box/commit/867c06cbbaada87906108d01a25f35cddbeec968) Thanks [@TrevelinT](https://github.com/TrevelinT)! - First Release
+
 ## 0.1.1
 
 ### Patch Changes
